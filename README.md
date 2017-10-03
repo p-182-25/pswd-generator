@@ -1,5 +1,5 @@
 # pswd-generator
-password generator inspired by SoloLearn challenger
+// password generator inspired by SoloLearn challenger
 
 using System;
 using System.Collections.Generic;
@@ -17,7 +17,7 @@ namespace PswdGenerator
             Console.WriteLine("your password: {0}", myChars.PswdBuilder());
         }
     }
-
+    
     public class CharsBase
     {        
         //Fields
@@ -33,7 +33,7 @@ namespace PswdGenerator
     52 numbers in the full pot). To give every char an equall chance, firstly I will random a pot and then chars.
     */
 
-	    //Constructor
+	//Constructor
         public CharsBase()
         {
             for (char cH = 'a'; cH <= 'z'; cH++) alphabetPot.Add(cH); //lower case letters
