@@ -117,7 +117,7 @@ namespace PswdGenerator
                             pswd.Append(RandomPotRandomChar("sCh"));
                             return pswd.ToString();
                         }
-                        else if (containLetter == true && containNumber == true && containSpecialChar == false) //current uncomplete pswd does not contain a number
+                        else if (containLetter == true && containNumber == false && containSpecialChar == true) //current uncomplete pswd does not contain a number
                         {
                             pswd.Append(RandomPotRandomChar(0));
                             return pswd.ToString();
